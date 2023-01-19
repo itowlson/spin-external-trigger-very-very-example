@@ -1,5 +1,5 @@
 {
-    "name": "timer",
+    "name": "trigger-timer",
     "description": "IT IS I THE GREAT OZ",
     "homepage": "www.example.com",
     "version": "0.1.0",
@@ -9,8 +9,8 @@
         {
             "os": "linux",
             "arch": "amd64",
-            "url": "file:///home/ivan/testing/spin-timer/timer.tar.gz",
-            "sha256": "48fcf92dbc7e9e165086cbcee4090f450b0b74e5b4e726a2761d4c4e14ef2f50"
+            "url": "file:///home/ivan/testing/spin-timer/trigger-timer.tar.gz",
+            "sha256": "8fda0cc198a85218efbed0d40cbf7838caac05a457a7c0f2fa09bc25e8f16b78"
         }
     ]
 }

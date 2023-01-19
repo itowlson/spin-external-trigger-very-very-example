@@ -6,9 +6,21 @@ trigger = { type = "timer" }
 version = "0.1.0"
 
 [[component]]
-id = "goodbye"
+id = "three"
 source = "target/wasm32-wasi/release/goodbye.wasm"
 [component.trigger]
-queue_url = "ARSE"
+interval_secs = "2"
 [component.build]
 command = "cargo build --target wasm32-wasi --release"
+[component.config]
+message = "Fizz"
+
+[[component]]
+id = "five"
+source = "target/wasm32-wasi/release/goodbye.wasm"
+[component.trigger]
+interval_secs = "7"
+[component.build]
+command = "cargo build --target wasm32-wasi --release"
+[component.config]
+message = "Buzz"
