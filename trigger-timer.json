@@ -10,7 +10,7 @@
             "os": "linux",
             "arch": "amd64",
             "url": "file:///home/ivan/testing/spin-timer/trigger-timer.tar.gz",
-            "sha256": "8fda0cc198a85218efbed0d40cbf7838caac05a457a7c0f2fa09bc25e8f16b78"
+            "sha256": "f5c3f980673961c459b72c1b0ddbd19ffad0ee5f3eac04a62d58624e405c17c7"
         }
     ]
 }
